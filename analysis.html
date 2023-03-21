@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>網站製作分析</title>
+	<style>
+		@import url("index.css");
+	</style>
+  </head>
+  <body>
+	<header>
+		<h1><a href="index.html" class="text-decoration-none">日本熊貓生活</a></h1>
+	</header>
+    <nav class="navbar navbar-light bg-light navbar-expand-md">
+	  <div class="container-fluid">
+        <a class="navbar-brand" href="#">MENU</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav me-auto">
+			<li class="nav-item dropdown">
+				<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">動物園</a>
+				<div class="dropdown-menu">
+					<a href="adventureworld.html" class="dropdown-item">和歌山冒險大世界</a>
+					<a href="uenozoo.html" class="dropdown-item">上野動物園</a>
+				</div>
+			</li>
+			<li class="nav-item"><a href="whatpanda.html" class="nav-link">熊貓是什麼？</a></li>
+			<li class="nav-item"><a href="login.html" class="nav-link">登入</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	<main>
+		<h2 class="border-bottom border-dark">網站製作分析</h2>
+		<h3>我喜愛的網站<a href="https://www.nogizaka46.com/s/n46/?ima=3521">乃木坂46的官方網站</a></h3>
+		<div class="container">
+			<!-- 導覽元件 -->
+			<ul class="nav nav-tabs" id="myTab">
+			  <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#tab1">選擇理由</a></li>
+			  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab2">優點</a></li>
+			  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab3">缺點</a></li>
+			</ul>
+			<!-- 標籤頁內容 -->
+			<div class="tab-content" id="myTabContent">
+			  <div class="tab-pane fade show active" id="tab1"><p>我喜歡這個網站有兩個原因。第一個原因是這個網站很容易閱讀。該網站的色彩方案基本上由黑色、紫色和白色組成。我認為，通過限制顏色的使用，網站很容易閱讀。紫色也是這個偶像團體的形象色，這使得瀏覽這個網站時不會感到不舒服。第二個原因是，即使你使用手機或電腦，也能毫無偏見地獲得信息。在電腦屏幕上瀏覽網站時，有三個菜單可以讓你輕鬆地跳到你正在瀏覽的任何頁面。這對我來說是一個優勢，因為我每天都在收集信息。</p></div>
+			  <div class="tab-pane fade" id="tab2">
+				<p>這個網站的好處是，不管螢幕大小，你可以看到所有的資訊。雖然,我寫在[選擇理由]的部分,但我覺得這個網站有很多導覽列是很好的地方。</p>
+				<div class="row">
+					<div class="container text-center col-6">
+						<img src="images\\nogizaka\\nogi2.jpg"  class="img-fluid"><br>
+						<button type="button" class="btn btn-secondary" data-bs-container="body"
+						 data-bs-toggle="popover" data-bs-placement="top" data-bs-content="good!">iPadAir</button>
+						<script>
+							var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+							var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+							return new bootstrap.Popover(popoverTriggerEl)
+						});
+						</script>
+					</div>
+					<div class="container text-center col-6">
+						<img src="images\\nogizaka\\nogi3.jpg"  class="img-fluid"><br>
+						<button type="button" class="btn btn-secondary" data-bs-container="body"
+						 data-bs-toggle="popover" data-bs-placement="top" data-bs-content="good!">iPhone</button>
+						<script>
+							var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+							var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+							return new bootstrap.Popover(popoverTriggerEl)
+						});
+						</script>
+					</div>
+	
+				</div>
+			  </div>
+			  <div class="tab-pane fade" id="tab3"><p>我想說關於部落格的部分。在主頁，成員的部落格更新順序排列。可是，在你跳轉到某人的部落格後的頁面上，你可以使用箭頭按鈕去看他們的上一篇和前一篇文章。要看到其他人的部落格，你必須回到主頁。
+				簡而言之，如果當你從首頁進入一個部落格時，你可以按箭頭跳到首頁上與你相鄰的人的頁面，我覺得那將更容易閱讀和處理。</p></div>
+			</div>
+		</div>
+		<hr>
+		<a href="https://www.nogizaka46.com/s/n46/?ima=3622"><img src="images\\nogizaka\\nogi1.jpg" class="img-fluid"></a>
+	
+	</main>
+	<footer>
+		<p>
+		<div class="container">
+			<ul class="breadcrumb">
+				<li class="breadcrumb-item active">製作人</li>
+				<li class="breadcrumb-item"><a href="sendmessage.html">寄郵件給我們🐼</a></li>
+				<li class="breadcrumb-item"><a href="analysis.html">網站製作分析</a></li>
+			</ul>
+		</div>
+		</p>
+		<p class="text-end"><a href="#">Back to top</a></p>
+	</footer>
+  </body>
+</html>

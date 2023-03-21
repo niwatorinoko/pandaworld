@@ -1,0 +1,41 @@
+header{
+    background-color: #D5D5D5;
+}
+h1 {
+    background-color: #BDBDBD;
+    padding: 7px;
+}
+h2{
+    padding: 5px;
+}
+
+
+main {
+    float: left;
+    width: 100%;
+    height: auto;
+    color: brack;
+    background: clear;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10px;
+}
+footer {
+    float: left;
+    width: 100%;
+    background-color: #BDBDBD;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 5px;
+    padding-right: 10px;
+}
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: black;
+}

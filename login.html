@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>登入</title>
+	<style>
+		@import url("index.css");
+	</style>
+	<script>
+		alert("請輸入正確的資料!!")
+	</script>
+  </head>
+  <body>
+	<header>
+		<h1><a href="index.html" class="text-decoration-none">日本熊貓生活</a></h1>
+	</header>
+    <nav class="navbar navbar-light bg-light navbar-expand-md">
+	  <div class="container-fluid">
+        <a class="navbar-brand" href="#">MENU</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav me-auto">
+			<li class="nav-item dropdown">
+				<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">動物園</a>
+				<div class="dropdown-menu">
+					<a href="adventureworld.html" class="dropdown-item">和歌山冒險大世界</a>
+					<a href="uenozoo.html" class="dropdown-item">上野動物園</a>
+				</div>
+			</li>
+			<li class="nav-item"><a href="whatpanda.html" class="nav-link">熊貓是什麼？</a></li>
+			<li class="nav-item"><a href="login.html" class="nav-link">登入</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	<main>
+		<h2 class="border-bottom border-dark">登入</h2>
+		<form class="row g-2">
+			<div class="input-group mb-3">
+				<input type="text" class="form-control" placeholder="電子郵件">
+				<span class="input-group-text" id="addon1">@mail.yzu.edu.tw</span>
+			</div>
+			<div>
+				<input type="password" class="form-control" id="userPWD" placeholder="密碼">			
+			</div>
+			<div class="text-right">
+				<button class="btn btn-dark" type="submit">登入</button>
+				<button class="btn btn-outline-dark" type="submit"><a href="register.html" class="text-decoration-none">新增張戶</a></button>
+			</div>
+		</form>
+	</main>
+	<footer>
+		<p>
+		<div class="container">
+			<ul class="breadcrumb">
+				<li class="breadcrumb-item active">製作人</li>
+				<li class="breadcrumb-item"><a href="sendmessage.html">寄郵件給我們🐼</a></li>
+				<li class="breadcrumb-item"><a href="analysis.html">網站製作分析</a></li>
+			</ul>
+		</div>
+		</p>
+		<p class="text-end"><a href="#">Back to top</a></p>
+	</footer>
+  </body>
+</html>
